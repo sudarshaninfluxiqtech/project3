@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1692px){
+    .Enrollment_block .Enrlmnt_contnt{
+        width: 78%;
+        margin: 0 auto;
+        background-image: url(/assets/images/trio.png) ;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 50%;
+      
+    }
+
+
+}
+@media only screen and (max-width: 1024px){
+
+    .Enrollment_block .Enrlmnt_contnt .Container1 h1 {
+        color: #00ffff;
+        font-size: 45px;
+        margin: 15px 0;
+    }
+    .Enrollment_block .Enrlmnt_contnt .Container1 .chlds{
+        display:block;
+    }
+}
