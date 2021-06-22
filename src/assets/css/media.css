@@ -66,6 +66,13 @@
     .Enrollment_block{
         background: none !important;
     }
+    .Enrollment_block .Enrlmnt_contnt .Container1 h1 {
+    margin:0;
+    font-size: 38px;
+    }
+    .Enrollment_block .Enrlmnt_contnt .Container1 p {
+        line-height: 1.2;
+    }
     .Enrollment_block .Enrlmnt_contnt{
         width: 100%;
     }
@@ -74,6 +81,7 @@
         padding: 0px 16px;
         margin-bottom: 0px;
     }
+    
     .resources{
         background: none !important;
     }
@@ -83,5 +91,103 @@
     }
     .resources .clms{
         width:95%;
+    }
+}
+@media only screen and (max-width:1298px){
+    .learn_desc .container .content h1 {
+        font-size: 40px;
+        line-height: 1;
+    }
+    .learn_desc .container {
+        width: 80%;
+    }
+    .curriculum {
+        background-position: right 10% , 4% center , 100% 80%, 3% 99% !important;
+        background-size: 8%,8%,7%,8% !important;
+    }
+    .curriculum .container .content1{
+        display: block;
+    }
+    .curriculum .container .content1 .imgContainer {
+        width: 100%;
+    }
+    .curriculum .container .content1 .content {
+        width: 96%;
+        padding: 0 15px 15px;
+    }
+    .curriculum .container .Crclm_bnr img {
+        width: 100%;
+        height: 100%;
+    }
+    .curriculum .container .Crclm_bnr .content {
+        padding: 20px 20px 0;
+    }
+    .curriculum .container .Crclm_bnr .content h1{
+        font-size: 35px;
+    }
+    .curriculum .container .Crclm_bnr .content p{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width:999px){
+    .learn_desc{
+        background: none !important;
+    }
+    .learn_desc .container .content {
+        background: transparent !important;
+        padding-left: 0;
+    }
+    .learn_desc .container .content img{
+        display: block;
+        width: 100%;
+    }
+    .learn_desc .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .learn_desc .container .content p {
+        line-height: 1.3;
+    }
+    .learn_desc .container .content strong {
+        font-size: 20px;
+        line-height: 1.1;
+        font-weight: 500;
+    }
+    .curriculum .container .Crclm_bnr {
+        display: block;
+    }
+    .curriculum .container .Crclm_bnr .img_contnr1{
+        display: none;
+    }
+    .curriculum .container .Crclm_bnr .img_contnr2{
+        display: block;
+    }
+    .curriculum .container .Crclm_bnr .content {
+        padding: 10px;
+    }
+    .curriculum .container .Crclm_bnr .content h1 {
+        font-size: 32px;
+    }
+    .curriculum .container .Crclm_bnr .content p {
+        font-size: 18px;
+    }
+
+}
+@media only screen and (max-width:425px){
+    .curriculum{
+        background: none !important;
+    }
+    .curriculum .container{
+        width:95%;
+    }
+    .curriculum .container .Crclm_bnr .content {
+        padding: 6px;
+    }
+    .curriculum .container .Crclm_bnr .content h1 {
+        font-size: 30px;
+    }
+    .curriculum .container .Crclm_bnr .content p {
+        margin: 5px;
     }
 }
