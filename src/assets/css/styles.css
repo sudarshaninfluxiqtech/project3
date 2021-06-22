@@ -50,6 +50,7 @@ mat-card{
     font-weight: 600;
     padding: 8px 25px;
     margin-bottom: 40px;
+    border-radius: 0;
 }
 
 
@@ -76,15 +77,17 @@ mat-card{
     justify-content: space-between;
     width: 78%;
     margin: 0 auto;
-    padding: 0 !important;
+    padding: 0 0 15px !important;
    
 }
 .resources .clms .news_blk{
     width: 23%;
     margin-bottom: 0 !important;
+    padding-bottom: 20px;
+    position: relative;
     box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);
 -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);
--moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,1);
 }
 .resources .clms .news_blk .blk1{
     background: #ac0000;
@@ -116,7 +119,19 @@ mat-card{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+    padding: 10px 10px 0;
 }
+.resources .clms .news_blk .NewsTitle::after{
+    content: ' ';
+    background: linear-gradient(90deg,rgba(3,4,4,0) 0, rgb(226,220,220) 50%,rgba(31,31,31,0) 100%);
+    height: 2px;
+    width: 100%;                        /* :nth-child(even)*/
+    position: absolute;
+    top: 100%;
+    left: -4%;
+}
+
 .resources .clms .news_blk .img_box{
     width: 23%;
 }
@@ -125,13 +140,113 @@ mat-card{
 } */
 .resources .clms .news_blk .NewsTitle h3{
     font-size: 18px;
+    margin: 0 0 0 8px;
 }
 .resources .clms .news_blk p{
     font-size: 17px;
-    padding: 15px 10px;
+    padding: 0 10px 20px;
     color: rgb(100, 100, 100);
     margin: 0;
 }
 .resources .clms .news_blk p a{
     text-decoration: none;
+    display: inline-block;
+}
+.resources .clms .news_blk .date{
+    position: absolute;
+    bottom: 10px;
+    color: #b5b0b0;
+    padding-left: 10px;
+}
+
+/* learn_desc design */
+
+.learn_desc{
+    width:100%;
+    padding: 0 !important;
+    background: url(../images/bird1.png) no-repeat right center !important;
+}
+.learn_desc .container{
+    width: 70%;
+    margin: 0 10%;
+    padding: 0 0 15px !important;
+}
+.learn_desc .container .content{
+    background-image: url(../images/tw_chld.png) !important;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    padding-left:50%;
+}
+.learn_desc .container .content h1{
+    font-size: 50px;
+    color: #05e205;
+    margin: 0;
+}
+.learn_desc .container .content p{
+    font-size: 17px;
+    line-height: 1.6;
+}
+.learn_desc .container .content strong{
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+/*curriculum design*/
+
+.curriculum{
+    background: url(../images/baloon1.png), url(../images/rkt.png)  !important;
+    background-repeat: no-repeat !important;
+    background-position: right 10% , 4% center !important;
+    width:100%;
+    padding: 0 !important;
+}
+.curriculum .container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0%;
+}
+.curriculum .container .content1{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+background: rgb(227,237,245);
+background: linear-gradient(270deg, rgba(227,237,245,1) 0%, rgba(250,250,250,1) 100%);
+margin: 15px 0;
+}
+.curriculum .container .content1 .imgContainer{
+    width: 46%;
+}
+.curriculum .container .content1 .imgContainer img{
+    width:100%;
+}
+.curriculum .container .content1  .content{
+    width: 50%;
+    padding: 0 15px 15px;
+}
+.curriculum .container .content1 .content button{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+    border: none;
+}
+.curriculum .container .content1 .content .green_btn{
+    background-color: #4dfb4d;
+}
+.curriculum .container .content1 .content .violt_btn{
+    background-color: #a913a9;
+}
+.curriculum .container .content1 .content .orng_btn{
+    background-color: #ed6f0e;
+}
+.curriculum .container .content1 .content .skblu_btn{
+    background-color: #9090f5;
+}
+.curriculum .container .content1 .content .chyn_btn{
+    background-color: #19d3e1;
+}
+.curriculum .container .content1 .content p{
+    font-size: 17px;
 }
