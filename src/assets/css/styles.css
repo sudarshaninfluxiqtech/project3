@@ -195,16 +195,16 @@ mat-card{
 /*curriculum design*/
 
 .curriculum{
-    background: url(../images/baloon1.png), url(../images/rkt.png)  !important;
+    background: url(../images/baloon1.png), url(../images/rkt.png),url(../images/bk-01.jpg), url(../images/cr_arw.jpg) !important;
     background-repeat: no-repeat !important;
-    background-position: right 10% , 4% center !important;
+    background-position: right 10% , 4% center , 99% 80%, 3% 98% !important;
     width:100%;
     padding: 0 !important;
 }
 .curriculum .container{
-    width: 80%;
+    width: 77%;
     margin: 0 auto;
-    padding: 0%;
+    padding: 0 0 20px;
 }
 .curriculum .container .content1{
 display: flex;
@@ -233,20 +233,48 @@ margin: 15px 0;
     border: none;
 }
 .curriculum .container .content1 .content .green_btn{
-    background-color: #4dfb4d;
+    background: rgb(0,177,93);
+    background: linear-gradient(270deg, rgba(0,177,93,1) 0%, rgba(0,249,133,1) 100%);
 }
 .curriculum .container .content1 .content .violt_btn{
-    background-color: #a913a9;
+    background: rgb(122,12,182);
+    background: linear-gradient(270deg, rgba(122,12,182,1) 0%, rgba(169,105,218,1) 100%);
 }
 .curriculum .container .content1 .content .orng_btn{
-    background-color: #ed6f0e;
+    background: rgb(182,60,12);
+    background: linear-gradient(270deg, rgba(182,60,12,1) 0%, rgba(223,113,47,1) 100%);
 }
 .curriculum .container .content1 .content .skblu_btn{
-    background-color: #9090f5;
+    background: rgb(12,120,162);
+    background: linear-gradient(270deg, rgba(12,120,162,1) 0%, rgba(87,182,209,1) 100%);
 }
 .curriculum .container .content1 .content .chyn_btn{
-    background-color: #19d3e1;
+    background: rgb(30,131,83);
+    background: linear-gradient(270deg, rgba(30,131,83,1) 0%, rgba(68,187,132,1) 100%);
 }
 .curriculum .container .content1 .content p{
     font-size: 17px;
+}
+
+.curriculum .container .Crclm_bnr{
+    background-color: rgb(255, 204, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.curriculum .container .Crclm_bnr img{
+    display: inline-block;
+}
+.curriculum .container .Crclm_bnr .content{
+    padding: 30px 30px 0;
+}
+.curriculum .container .Crclm_bnr .content h1{
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.curriculum .container .Crclm_bnr .content p{
+    font-size: 24px;
+    margin-top: 12px;
 }

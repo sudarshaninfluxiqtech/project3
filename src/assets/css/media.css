@@ -12,6 +12,12 @@
 
 }
 @media only screen and (max-width: 1024px){
+    .Enrollment_block {
+        background-image: url(/assets/images/baloon.png), url(/assets/images/bird.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: left 70%,right 75% !important;
+        background-size: 9% ,9% !important;
+    }
 
     .Enrollment_block .Enrlmnt_contnt .Container1 h1 {
         color: #00ffff;
@@ -20,5 +26,62 @@
     }
     .Enrollment_block .Enrlmnt_contnt .Container1 .chlds{
         display:block;
+    }
+    .Enrollment_block .Enrlmnt_contnt .Container1{
+        padding-right: 0%;
+    }
+    .Enrollment_block .Enrlmnt_contnt{
+        width: 78%;
+        margin: 0 auto;
+        background:none;
+      
+    }
+    .Enrollment_block .Enrlmnt_contnt .Container1 a {
+        margin-bottom: 5px;
+    }
+
+    .resources {
+        padding: 0 !important;
+        background-image: url(/assets/images/chklt.png),url(/assets/images/erth.png),url(/assets/images/bg-bl_shade.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: 0% 5%, 100% 90% !important;
+        background-size: 12% ,12%,90% !important;
+    }
+    .resources .clms {
+        display:block !important;
+
+    }
+    .resources .clms .news_blk {
+        width: 100%;
+        margin: 12px 0;
+    }
+    .resources .clms .news_blk .NewsTitle {
+        justify-content: left;
+    }
+    .resources .clms .news_blk .img_box {
+        width: 8%;
+    }
+}
+@media only screen and (max-width:770px){
+    .Enrollment_block{
+        background: none !important;
+    }
+    .Enrollment_block .Enrlmnt_contnt{
+        width: 100%;
+    }
+    .Enrollment_block .Enrlmnt_contnt .Container1 a {
+        font-size: 18px;
+        padding: 0px 16px;
+        margin-bottom: 0px;
+    }
+    .resources{
+        background: none !important;
+    }
+    .resources h1{
+        margin:0;
+        font-size: 38px;
+    }
+    .resources .clms{
+        width:95%;
     }
 }
